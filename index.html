@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subdomain Takeover - Security Research</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 600px;
+            margin: 80px auto;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        .box {
+            background: #fff;
+            border: 2px solid #dc3545;
+            border-radius: 8px;
+            padding: 32px;
+        }
+        h1 { color: #dc3545; font-size: 22px; margin-top: 0; }
+        .meta { color: #6c757d; font-size: 14px; margin-top: 16px; }
+        .meta span { display: block; margin: 4px 0; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Subdomain Takeover &#8212; Security Research</h1>
+        <p>This page demonstrates that this subdomain is vulnerable to takeover via a dangling CNAME record pointing to a decommissioned service.</p>
+        <p>This is a benign proof of concept. No malicious content is hosted here.</p>
+        <div class="meta">
+            <span><strong>Researcher:</strong> Upendra Khanal</span>
+            <span><strong>Date:</strong> 2026-11-02</span>
+            <span><strong>Reported via:</strong> Bugcrowd &#8212; The Trade Desk program</span>
+        </div>
+    </div>
+</body>
+</html>
